@@ -1,0 +1,37 @@
+body{
+    background-color: white ;
+}
+
+  #opening-page{
+    text-align: center;
+    color: #9191c5;
+    font-family: 'Times New Roman';
+
+  } 
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 4px solid #333; /* Frame border */
+    border-radius: 10px; /* Border radius */
+    overflow: hidden; /* Hide overflow */
+    width: 600px; /* Adjust width for TV frame */
+    height: 400px; /* Adjust height for TV frame */
+    background-color: #000; /* TV screen background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* TV screen shadow */
+  }
+  
+  #video {
+    width: 100%; /* Ensure video fills container */
+    height: 100%; /* Ensure video fills container */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }

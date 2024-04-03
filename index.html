@@ -1,60 +1,25 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Face Detection</title>
-  </head>
-  <body>
-    <h1>Face Detection</h1>
-    <video id="video" autoplay></video>
-    <canvas id="canvas" width="600px" height="400px"></canvas>
-  </body>
-
-  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_detection"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/face-detection"></script>
-  <script src="script.js"></script>
-</html> -->
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Facial Detection App</title>
-  </head>
-  <body>
-    <h1>Facial Detection</h1>
-    <video id="video" autoplay style="display: none"></video>
-    <canvas id="canvas" width="500px" height="400px"></canvas>
-  </body>
-
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
-  <script src="script.js"></script>
-</html> -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Face Detection Login</title>
-  <style>
-    /* Add basic CSS styles for video and canvas elements */
-  </style>
-</head>
-<body>
-  <video id="video" width="500" height="400"></video>
-  <canvas id="canvas" width="500" height="400"></canvas>
-  <div id="message"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Face Detection Login</title>
+    <style>
+      /* Add basic CSS styles for video and canvas elements */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <video autoplay id="video" width="500" height="400"></video>
+      <canvas id="canvas" width="500" height="400"></canvas>
+    </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
-  <script src="script.js"></script>
+    <div id="opening-page">
+      <h1>Welcome! Please show your face.</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
